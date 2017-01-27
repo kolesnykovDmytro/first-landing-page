@@ -1,13 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     text-align: center;
     
 }
-
+.wrap {
+    min-width: 1440px;
+}
 .text{
     font-family: "Roboto Slab", serif;
     color: #ffffff;
@@ -17,16 +14,12 @@ body{
     margin: 0 auto;
 }
 .upper-container {
-    background-image: url("../img/background-header.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("../img/background-header.png") no-repeat 100%;
 }
 .menu{
     font-weight: 700;
     font-size: 15px;
-    /*border: 1px solid red;*/
 }
-
 .menu li {
     display: inline-block;
     padding: 35px 70px;
@@ -38,55 +31,40 @@ body{
 .menu a:hover {
     color: #FFD700;
 }
-
 .logo{
     padding: 35px 0 35px 0;
-    /*border: 1px solid red;*/
 }
-
 .hello{
     font-size: 35px;
     font-weight: 100;
-    /*border: 1px solid red;*/
 }
-
 .name{
     font-size: 66px;
     font-weight: 300;
-    /*border: 1px solid red;*/
 }
-
 .emrah {
     font-weight: 600;
 }
-
 .designer{
     font-size: 22px;
     font-weight: 300;
     padding: 15px 0 15px 0;
-    /*border: 1px solid red;*/
 }
-
 .social {
     padding: 15px 0 45px 0;
-    /*border: 1px solid red;*/
 }
-
 .global-social{
     padding: 0 20px 0 20px;
 }
-
 .end-epper-container{
-    /*border: 1px solid red;*/
 }
 .end-epper-container p {
     display: inline-block;
     font-weight: 700;
     font-size: 22px;
-    padding: 45px 40px 90px 40px;
+    padding: 45px 40px 45px 40px;
     letter-spacing: 5px;
 }
-
 .about{
     background-color: #524664;
 }
@@ -101,7 +79,6 @@ body{
 .text-after-hr{
     padding: 10px 0 0 0;
 }
-
 .text-and-social{
     text-align: left;
     line-height: 30px;
@@ -116,7 +93,6 @@ body{
     width: 33.3%;
     padding-top: 100px;
 }
-
 .text-about-right{
     text-align: left;
     width: 33.3%;
@@ -133,7 +109,6 @@ body{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
-
 .percent{
     position: absolute;
     top: 0;
@@ -161,7 +136,6 @@ body{
 .front-six{
     width: 45%;
 }
-
 .text-about-right h2{
     padding: 0 0 20px 0;
 }
@@ -169,12 +143,10 @@ body{
 .text-about-right p{
     padding: 0 0 20px 0;
 }
-
 .portfolio{
     background-color: #ffd670;
     padding-bottom: 70px;
 }
-
 .content-three{
     width: 1400px;
     margin: 0 auto;
@@ -193,13 +165,11 @@ body{
     width: 33.3%;
     padding-top: 70px;
 }
-
 .list-portfolio li{
     padding: 0 0 0 50px;
     line-height: 30px;
     list-style-type: none;
 }
-
 .text-after-list{
     font-size: 20px;
     line-height: 30px;
@@ -207,7 +177,6 @@ body{
     text-decoration: none;
     list-style-type: none;
 }
-
 .text-after-list a{
     text-decoration: none;
     color: #ffffff;
@@ -227,13 +196,11 @@ body{
     padding: 70px 0 0 230px;
     position: relative;
 }
-
 .slide-left{
     position: absolute;
     top: 280px;
     left: 230px;
 }
-
 .slide-right{
     position: absolute;
     bottom: 210px;
@@ -413,7 +380,6 @@ body{
     font-size: 16px;
     padding-bottom: 20px;
 }
-
 .text-for-blog{
     float: left;
     padding-left: 30px;
@@ -433,7 +399,6 @@ body{
     margin-bottom: 50px;
     font-size: 24px;
 }
-
 .finder{
     position: absolute;
     top: 75px;
@@ -565,7 +530,6 @@ textarea:focus[type="text"]::-webkit-input-placeholder{
     overflow-x:scroll;
     overflow-y:hidden;
 }
-
 .any-pic{
     white-space: nowrap;
     font-size: 0;
